@@ -3,7 +3,7 @@ Below you will find reading materials and additional resources that support toda
 
 Review the Submission Instructions for guidance on completing and submitting this assignment.
 
-Reading
+Reading, Resources, and Attributions
 AWS Architecture Blog - Compute Abstractions on AWS: A Visual Story
 ChatGPT
 
