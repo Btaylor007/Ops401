@@ -6,7 +6,7 @@ Review the Submission Instructions for guidance on completing and submitting thi
 Reading
 Lessons Learned from the Capital One Data Breach (PDF)
 
-What were the three commands used for the attack? Code for 3 commands used for the attack
+1.What were the three commands used for the attack? Code for 3 commands used for the attack
 • Get Credentials - First command when executed obtained security
 credentials known as ****-WAF-Role account (an IAM account) for an
 elevated role access AWS Web Application Firewall (WAF)
@@ -14,12 +14,14 @@ elevated role access AWS Web Application Firewall (WAF)
 credentials *****-WAF-Role account to list files and folders (aka S3 buckets)
 • Download Files - Third command, when executed used the *****-WAF-Role
 account to download files that were accessible by the credentials
-What misconfiguration of AWS components allowed the attacker to access sensitive data? the most likely root cause of the attack was a poor security architecture design that exposed S3
+
+2.What misconfiguration of AWS components allowed the attacker to access sensitive data? the most likely root cause of the attack was a poor security architecture design that exposed S3
 buckets via AWS WAF/EC2 instance to anyone with an IAM role. While S3 buckets were not exposed to the
 Internet like many other breaches, an EC2 instance with an excessive IAM role might have been the culprit.
 The deployed architecture would have looked something like this. It was a trivial step to “compromise” the
 poorly configured WAF.
-What are two of the AWS Governance practices that could have prevented such attack? e following AWS governance practices would prevent such attacks:
+
+3.What are two of the AWS Governance practices that could have prevented such attack? e following AWS governance practices would prevent such attacks:
 1. 	 Review all access paths and permissions from human identities or non-human identities (e.g., ec2
 	 machine) to data storages (e.g., S3 buckets). Use Cloud Infrastructure Entitlement Management 		
 	 (CIEM) solutions to automate the detection of over-privileged identities and over-exposed data.
