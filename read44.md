@@ -7,3 +7,4 @@ Reading
 What is Metasploit?
 
 Explain what Metasploit is using non-technical terms.
+it automates repatetivtive tasks for hat teams 
